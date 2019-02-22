@@ -1,0 +1,10 @@
+- ALTER TABLE を実行後　general error 1364が発生
+-
+- 原因
+- ALTER TABLE実行時に AUTO_INCREMENT を付与し忘れた。
+-　（それが原因でプログラムから格納するカラムにズレが生じた）
+-
+-
+-
+-
+-
