@@ -1,0 +1,11 @@
+-　DBから値を取得してきて配列で扱う
+-　fetchAll(PDO::FETCH_ASSOC);
+-　例）
+-   $pdo->prepare("SELECT comment,name FROM user_comment")の結果を
+-   fetchを使って配列に格納
+-  結果）
+-　  Array (
+-    [0] => Array ( [comment] => test [name] => shy )
+-    [1] => Array ( [comment] => Wow! [name] => shy )
+-   )
+-   fetchの結果を$resultなどに格納した場合、$result[1][name]などでお目当の値が扱える。
